@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/main.min.css">
+        <title>Portfolio Template</title>
+    </head>
+    <body>
+
+        <aside>
+            <figure>
+                <div id="avatar">
+
+                </div>
+                <figcaption>Mary Cooper</figcaption>
+            </figure>
+            <img src="https://www.hearingaidslowcost.com/images/menu.png">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <h1>I'm a designer of things.</h1>
+            <p>I design things and then you use them. How cool is that. I love my job. I love my life. I'm happy I don't have to code in C. Love, peace, unicorns &#x1F984;</p>
+            <a href="#" class="cta">my portfolio</a>
+        </main>
+        <script type="text/javascript">
+            let menu = document.querySelector('ul')
+            document.querySelector('img').addEventListener('click', function(event) {
+                menu.classList.toggle('active');
+                event.preventDefault();
+            })
+        </script>
+    </body>
+</html>
